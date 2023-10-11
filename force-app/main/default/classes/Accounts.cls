@@ -22,7 +22,7 @@ public with sharing class Accounts extends fflib_SObjectDomain {
         onApplyDefaults();
     }
 
-    public override void onBeforeUpdate(Map<Id,sObject> existingRecords) {
+    public override void onBeforeUpdate(Map<Id, SObject> existingRecords) {
         String entryPhrase = 'Domain classes rock!';
         List<Account> updatedAccounts = new List<Account>();
         for(Account acc : (List<Account>) records) {                  

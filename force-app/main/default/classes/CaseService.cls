@@ -1,4 +1,5 @@
 public with sharing class CaseService {
+    
     public static void closeCases(Set<Id> caseIds, String closeReason) {
         if(caseIds.isEmpty()){
             throw new CaseServiceException('No Cases provided');
