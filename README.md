@@ -1,2 +1,2 @@
 # ApexEnterprisePatterns
-repository for Apex Enterprise Patterns trialheads
+repository for Apex Enterprise Patterns trailheads
